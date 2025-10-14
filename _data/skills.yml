@@ -1,0 +1,25 @@
+technical:
+  - title: SQL
+    level: Advanced
+  - title: Data Analysis (Power BI, Exel, Tableau)
+    level: Advanced
+  - title: Databases (SQL Server, MongoDB)
+    level: Advanced
+  - title: (SSIS, SSAS, SSRS)
+    level: Advanced
+  - title: Data Modeling & Warehousing
+    level: Advanced
+  - title: (Python, Pandas, NumPy, Scikit-Learn)
+    level: Intermediate
+  - title: APIs, Integration, Linux & Bash
+    level: Intermediate
+
+soft:
+  - title: Communication & Teamwork
+    level: Advanced
+  - title: Problem Solving & Analytical Thinking
+    level: Advanced
+  - title: Adaptability
+    level: Intermediate
+  - title: Leadership
+    level: Intermediate
