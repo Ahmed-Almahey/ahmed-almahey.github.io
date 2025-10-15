@@ -3,4 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+author: Ahmed Almahey
+author_profile: true
 ---
+![Ahmed Almahey](/assets/images/IMG_20250911_153717.jpg){: .avatar}
+# Hi there! I'm Ahmed Almahey
+a Data Analyst and BI Developer with a background in Mathematics and Statistics. I’m passionate about transforming data into insights and creating impactful dashboards with Power BI and SQL. Explore my projects below or visit [My Work](/mywork) for more.
