@@ -2,6 +2,8 @@
 layout: archive
 title: About
 permalink: /about/
+author_profile: true
+author: Ahmed Almahey
 ---
 # Hi! I'm Ahmed Almahey
 
