@@ -1,14 +1,16 @@
 ---
-layout: post
+layout: posts
 title: "Welcome to Jekyll!"
 date: 2025-10-14 21:23:35 +0000
-categories: work
-tags: educations
+categories:
+  - work
+tags:
+  - education
 description: "This is an article about education."
 highlight_home: true
 header:
-  overlay_image: "https://images.unsplash.com/photo-1599658880436-c61792e70672?auto=format&fit=crop&q=60&w=1000"
-  teaser: "https://images.unsplash.com/photo-1599658880436-c61792e70672?auto=format&fit=crop&q=60&w=500"
+  overlay_image: "https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870"
+  teaser: "https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870"
   caption: "Photo credit: [Unsplash: Myriam Jessier](https://unsplash.com/@mjessier)"
 ---
 

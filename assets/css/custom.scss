@@ -1,7 +1,8 @@
---- 
-#to make sure Jekyll reads this 
---- 
+---
+# Required so Jekyll processes this SCSS file
+---
 
+/* ====== Imports from the theme ====== */
 @import "default";
 @import "author";
 @import "footer";
@@ -10,4 +11,41 @@
 @import "nav";
 @import "post";
 @import "taxonomy";
+
+/* ====== Custom Sidebar Layout Fix ====== */
+
+/* Sidebar settings */
+.layout--home .sidebar,
+.layout--archive .sidebar {
+  position: fixed;           /* keep sidebar fixed on the left */
+  top: 80px;
+  left: 0;
+  width: 350px !important;   /* sidebar width */
+  max-width: 350px !important;
+  height: 100vh;             /* full height */
+  overflow-y: auto;          /* scroll if content is long */
+  background: #eaf7fc;       /* background color */
+  z-index: 2;                /* above background but below content */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Shift the main content to the right */
+.layout--home .page__inner-wrap,
+.layout--archive .page__inner-wrap,
+.layout--home .main-content,
+.layout--archive .main-content {
+  margin-left: 380px !important; /* sidebar width + spacing */
+  max-width: calc(100% - 380px) !important;
+  position: relative;
+  z-index: 1;
+  background: white; /* keep it clean and readable */
+  padding: 20px;
+}
+
+/* Optional: overall page max width */
+.layout--home .page,
+.layout--archive .page {
+  max-width: 1300px !important;
+}
 

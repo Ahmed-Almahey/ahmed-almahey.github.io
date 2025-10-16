@@ -1,11 +1,12 @@
 Ahmed Almahey:
   name        : "Ahmed Almahey"
-  bio         : "Let's talk about code! Reach out via the links below."
+  bio         : "Let's talk ! Reach out via the links below."
   avatar      : "https://placehold.co/400"
   links:
-    - label: "Email"
+    - label: "Email: ahmed.almahey77@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:name@email.com"
-    - label: "Website"
+      url: "#"
+
+    - label: "Linkedin"
       icon: "fas fa-fw fa-link"
-      url: "https://www.mywebsite.com"
+      url: "https://www.linkedin.com/in/ahmed-almahey"
