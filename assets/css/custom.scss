@@ -15,37 +15,70 @@
 /* ====== Custom Sidebar Layout Fix ====== */
 
 /* Sidebar settings */
+/* Sidebar settings */
+/* Sidebar settings */
+/* ========== SIDEBAR STYLES ========== */
+
+/* General sidebar appearance */
 .layout--home .sidebar,
-.layout--archive .sidebar {
-  position: fixed;           /* keep sidebar fixed on the left */
-  top: 80px;
+.layout--archive .sidebar,
+.layout--posts .sidebar {
   left: 0;
-  width: 350px !important;   /* sidebar width */
+  width: 350px !important;
   max-width: 350px !important;
-  height: 100vh;             /* full height */
-  overflow-y: auto;          /* scroll if content is long */
-  background: #eaf7fc;       /* background color */
-  z-index: 2;                /* above background but below content */
+  height: 100vh;
+  overflow-y: auto;
+  background: #eaf7fc;
+  z-index: 2;
   padding: 20px;
   box-sizing: border-box;
 }
 
-/* Shift the main content to the right */
+/* Fixed position for desktop */
+@media (min-width: 992px) {
+  .layout--home .sidebar,
+  .layout--archive .sidebar {
+    position: fixed;
+    top: 80px; /* normal placement */
+  }
+
+  .layout--posts .sidebar {
+    position: fixed;
+    top: 350px; /* lower placement so it’s below the header image */
+  }
+}
+
+/* Scrolls normally on mobile/small screens */
+@media (max-width: 991px) {
+  .layout--home .sidebar,
+  .layout--archive .sidebar,
+  .layout--posts .sidebar {
+    position: relative;
+    top: auto;
+    height: auto;
+  }
+}
+
+/* ========== MAIN CONTENT AREA ========== */
+
 .layout--home .page__inner-wrap,
 .layout--archive .page__inner-wrap,
+.layout--posts .page__inner-wrap,
 .layout--home .main-content,
-.layout--archive .main-content {
-  margin-left: 380px !important; /* sidebar width + spacing */
+.layout--archive .main-content,
+.layout--posts .main-content {
+  margin-left: 380px !important;
   max-width: calc(100% - 380px) !important;
   position: relative;
   z-index: 1;
-  background: white; /* keep it clean and readable */
+  background: white;
   padding: 20px;
 }
 
-/* Optional: overall page max width */
+/* Overall page width */
 .layout--home .page,
-.layout--archive .page {
+.layout--archive .page,
+.layout--posts .page {
   max-width: 1300px !important;
+  margin: 0 auto;
 }
-
