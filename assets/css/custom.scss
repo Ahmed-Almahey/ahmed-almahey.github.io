@@ -122,3 +122,77 @@ h2 {
   margin-top: 40px;
   color: #2a2a2a;
 }
+
+
+/* ---------- My Work: tag pills + grid fixes ---------- */
+
+/* Base pills (mobile + fallback) */
+.tags-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0 28px 0;
+  justify-content: center;      /* center on small screens */
+}
+
+/* Pill appearance */
+.tag-btn {
+  background: linear-gradient(135deg, #4f9de8, #1b75d0);
+  color: #fff !important;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.12);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.tag-btn:hover { transform: translateY(-3px); box-shadow: 0 6px 14px rgba(0,0,0,0.18); }
+
+/* Desktop adjustments (prevents overlap with sidebar & left-align) */
+@media (min-width: 992px) {
+  /* Ensure pills align with the content area (account for sidebar) */
+  .tags-navigation {
+    justify-content: flex-start;
+    margin-left: 0;
+    padding-left: 0;
+    max-width: calc(100% - 400px); /* ensures it sits inside the main content area */
+  }
+
+  /* Align the pills with the page content and give some breathing room */
+  .layout--home .main-content .tags-navigation,
+  .layout--archive .main-content .tags-navigation,
+  .layout--posts .main-content .tags-navigation {
+    padding-left: 10px;
+  }
+}
+
+/* Make the project entries use a reliable responsive grid */
+.entries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+
+/* Ensure archive item teaser images don't overflow and scale nicely */
+.archive__item-teaser img,
+.archive__item-teaser > img {
+  width: 100%;
+  height: 180px;            /* consistent thumbnail height */
+  object-fit: cover;
+  display: block;
+  border-radius: 6px;
+}
+
+/* Make sure the archive item itself doesn't expand beyond the grid cell */
+.archive__item {
+  box-sizing: border-box;
+  min-height: 0;
+}
+
+/* Small screens: keep centered & single-column feel */
+@media (max-width: 991px) {
+  .tags-navigation { justify-content: center; }
+  .archive__item-teaser img { height: auto; }
+}
