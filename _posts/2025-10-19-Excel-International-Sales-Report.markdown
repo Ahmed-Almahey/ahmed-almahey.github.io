@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Excel International Sales Report — Global Performance Dashboard"
-date: 2025-10-19 7:55:00 +0200
+date: 2025-10-19 6:55:00 +0200
 tags: [Excel]
 author_profile: true
 author: Ahmed Almahey
