@@ -4,6 +4,7 @@ layout: archive
 category: work
 author: Ahmed Almahey
 author_profile: true
+classes: page--mywork
 ---
 
 Over the years, I’ve combined my background in mathematics and statistics with my passion for data and technology.  
