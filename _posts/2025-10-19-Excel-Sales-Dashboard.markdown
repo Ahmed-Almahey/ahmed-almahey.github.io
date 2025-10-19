@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Excel Sales Dashboard — Last Month Analysis"
-date: 2025-10-19 07:36:00 +0200
+date: 2025-10-19 05:36:00 +0200
 tags: [Excel]
 author_profile: true
 author: Ahmed Almahey
