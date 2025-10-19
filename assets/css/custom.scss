@@ -196,3 +196,10 @@ h2 {
   .tags-navigation { justify-content: center; }
   .archive__item-teaser img { height: auto; }
 }
+
+/* --- Fix wide tag buttons on desktop --- */
+
+.tag-btn {
+  white-space: nowrap;       /* prevent line break */
+  padding: 8px 14px;         /* make pill slightly thinner */
+}
