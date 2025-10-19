@@ -157,3 +157,22 @@ h2 {
 .page--mywork .archive__item-teaser:hover img {
   transform: scale(1.05);
 }
+
+/* ===== Fix for My Work cards becoming too thin ===== */
+.page--mywork .entries-grid {
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* was 260px */
+  gap: 24px; /* slightly wider spacing */
+}
+
+/* Optional: keep cards same height even if text differs */
+.page--mywork .archive__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Keep images consistent height */
+.page--mywork .archive__item-teaser {
+  padding-top: 70%; /* slightly wider aspect ratio */
+}
+
