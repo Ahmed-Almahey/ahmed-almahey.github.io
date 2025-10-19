@@ -45,15 +45,14 @@ This project strengthened my skills in:
 
 ---
 
-### 🔗 Live Demo & Code
-
-- **Live App:** [https://churn-pred-app.streamlit.app/](https://churn-pred-app.streamlit.app/)
-- **GitHub Repo:** [https://github.com/Ahmed-Almahey/Prediction-App](https://github.com/Ahmed-Almahey/Prediction-App)
-- **Video Demo (LinkedIn):** [Watch on LinkedIn](https://www.linkedin.com/posts/ahmed-almahey_iti-datascience-machinelearning-activity-7328411469266485249-MKOQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACc9-lYBwv4AGqqF7Pyk4h-OiyXQ8haYNow)
-
-
 ---
 
 ### 🖼 App Preview
 
 {% include figure image_path="/assets/images/Screenshot 2025-10-19 050606.png" alt="Customer Churn Prediction App" %}
+
+### 🔗 Live Demo & Code
+
+- **Live App:** [https://churn-pred-app.streamlit.app/](https://churn-pred-app.streamlit.app/)
+- **GitHub Repo:** [https://github.com/Ahmed-Almahey/Prediction-App](https://github.com/Ahmed-Almahey/Prediction-App)
+- **Video Demo (LinkedIn):** [Watch on LinkedIn](https://www.linkedin.com/posts/ahmed-almahey_iti-datascience-machinelearning-activity-7328411469266485249-MKOQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACc9-lYBwv4AGqqF7Pyk4h-OiyXQ8haYNow)
