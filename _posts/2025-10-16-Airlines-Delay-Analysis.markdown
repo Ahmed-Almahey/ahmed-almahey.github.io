@@ -28,3 +28,9 @@ This project strengthened my skills in data modeling, DAX, and business storytel
 {% include figure image_path="/assets/images/Screenshot 2025-10-16 083436.png" alt="Airline Delay Power BI Dashboard" %}
 {% include figure image_path="/assets/images/Screenshot 2025-10-16 185128.png" alt="Airline Delay Visualization" %}
 {% include figure image_path="/assets/images/Screenshot 2025-10-16 185856.png" alt="Airline Delay Analysis Charts" %}
+
+### 🔗 Project Files
+
+- **GitHub Repo:**  
+  [https://github.com/Ahmed-Almahey/PowerBI_Projects/tree/main/Airlines-Delay-Dashboard](https://github.com/Ahmed-Almahey/PowerBI_Projects/tree/main/Airlines-Delay-Dashboard)
+

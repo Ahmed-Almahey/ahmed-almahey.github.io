@@ -51,7 +51,7 @@ This project strengthened my skills in:
 
 {% include figure image_path="/assets/images/Screenshot 2025-10-19 050606.png" alt="Customer Churn Prediction App" %}
 
-### 🔗 Live Demo & Code
+### 🔗 Live Demo & Project Files
 
 - **Live App:** [https://churn-pred-app.streamlit.app/](https://churn-pred-app.streamlit.app/)
 - **GitHub Repo:** [https://github.com/Ahmed-Almahey/Prediction-App](https://github.com/Ahmed-Almahey/Prediction-App)

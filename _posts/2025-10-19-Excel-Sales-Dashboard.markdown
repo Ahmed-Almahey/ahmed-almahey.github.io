@@ -51,7 +51,7 @@ This simulates a realistic business reporting scenario using Excel as a lightwei
 {% include figure image_path="/assets/images/Screenshot 2025-10-19 073647.png" alt="Excel Sales Dashboard — Last Month Analysis" %}
 
 
-### 🔗 Demo & Code
+### 🔗 Demo & Project Files
 
 - **GitHub Repo:**  
   [https://github.com/Ahmed-Almahey/Excel-Projects/tree/main/Last%20Month%20Dashboard](https://github.com/Ahmed-Almahey/Excel-Projects/tree/main/Last%20Month%20Dashboard)
