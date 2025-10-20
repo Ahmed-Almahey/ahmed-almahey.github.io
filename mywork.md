@@ -7,7 +7,6 @@ author_profile: true
 classes: page--mywork
 ---
 
-
 Over the years, I’ve combined my background in mathematics and statistics with my passion for data and technology.  
 Here you’ll find a collection of my work in data analysis, BI development, and visualization — each project reflecting my focus on turning numbers into meaningful insights.
 
@@ -26,7 +25,7 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 ---
 
 ## 🟦 Power BI Projects {#powerbi}
-<div class="entries-grid">
+<div class="entries-grid entries-grid--mywork">
   {% for post in site.categories.work %}
     {% if post.tags contains "Power BI" %}
       {% include archive-single.html type="grid" %}
@@ -37,7 +36,7 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 ---
 
 ## 🐍 Python Projects {#python}
-<div class="entries-grid">
+<div class="entries-grid entries-grid--mywork">
   {% for post in site.categories.work %}
     {% if post.tags contains "Python" %}
       {% include archive-single.html type="grid" %}
@@ -48,7 +47,7 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 ---
 
 ## 📊 Tableau Projects {#tableau}
-<div class="entries-grid">
+<div class="entries-grid entries-grid--mywork">
   {% for post in site.categories.work %}
     {% if post.tags contains "Tableau" %}
       {% include archive-single.html type="grid" %}
@@ -59,7 +58,7 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 ---
 
 ## 📈 Excel Projects {#excel}
-<div class="entries-grid">
+<div class="entries-grid entries-grid--mywork">
   {% for post in site.categories.work %}
     {% if post.tags contains "Excel" %}
       {% include archive-single.html type="grid" %}
@@ -70,7 +69,7 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 ---
 
 ## 🗄️ SQL Projects {#sql}
-<div class="entries-grid">
+<div class="entries-grid entries-grid--mywork">
   {% for post in site.categories.work %}
     {% if post.tags contains "SQL" %}
       {% include archive-single.html type="grid" %}
@@ -81,7 +80,7 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 ---
 
 ## 🍃 MongoDB Projects {#mongodb}
-<div class="entries-grid">
+<div class="entries-grid entries-grid--mywork">
   {% for post in site.categories.work %}
     {% if post.tags contains "MongoDB" %}
       {% include archive-single.html type="grid" %}
@@ -92,7 +91,7 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 ---
 
 ## 🎓 ITI Graduation Project {#iti}
-<div class="entries-grid">
+<div class="entries-grid entries-grid--mywork">
   {% for post in site.categories.work %}
     {% if post.tags contains "ITI" %}
       {% include archive-single.html type="grid" %}
