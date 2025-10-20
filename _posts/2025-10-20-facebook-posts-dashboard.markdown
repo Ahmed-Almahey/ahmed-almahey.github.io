@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Facebook Posts Dashboard — Power BI Graph API Integration"
-date: 2025-10-20 06:45:00 +0200
+date: 2025-10-20 02:45:00 +0200
 tags: [PowerBI]
 author_profile: true
 author: Ahmed Almahey
