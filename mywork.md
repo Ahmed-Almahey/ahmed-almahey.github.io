@@ -13,13 +13,25 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 ---
 
 <div class="tags-navigation">
+ <a href="#iti" class="tag-btn">ITI Graduation Project</a>
   <a href="#powerbi" class="tag-btn">Power BI</a>
   <a href="#python" class="tag-btn">Python</a>
   <a href="#tableau" class="tag-btn">Tableau</a>
   <a href="#excel" class="tag-btn">Excel</a>
   <a href="#sql" class="tag-btn">SQL</a>
+  <a href="#DWH" class="tag-btn">Data Warehouse</a>
   <a href="#mongodb" class="tag-btn">MongoDB</a>
-  <a href="#iti" class="tag-btn">ITI Graduation Project</a>
+</div>
+
+---
+
+## 🎓 ITI Graduation Project {#iti}
+<div class="entries-grid entries-grid--mywork">
+  {% for post in site.categories.work %}
+    {% if post.tags contains "ITI" %}
+      {% include archive-single.html type="grid" %}
+    {% endif %}
+  {% endfor %}
 </div>
 
 ---
@@ -78,6 +90,17 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 </div>
 
 ---
+## 🗄️ Data Warehouse Projects {#DWH}
+<div class="entries-grid entries-grid--mywork">
+  {% for post in site.categories.work %}
+    {% if post.tags contains "Data Warehouse" %}
+      {% include archive-single.html type="grid" %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+---
+
 
 ## 🍃 MongoDB Projects {#mongodb}
 <div class="entries-grid entries-grid--mywork">
@@ -88,13 +111,3 @@ Here you’ll find a collection of my work in data analysis, BI development, and
   {% endfor %}
 </div>
 
----
-
-## 🎓 ITI Graduation Project {#iti}
-<div class="entries-grid entries-grid--mywork">
-  {% for post in site.categories.work %}
-    {% if post.tags contains "ITI" %}
-      {% include archive-single.html type="grid" %}
-    {% endif %}
-  {% endfor %}
-</div>
