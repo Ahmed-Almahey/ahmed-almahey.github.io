@@ -1,20 +1,17 @@
 Ahmed Almahey:
   name        : "Ahmed Almahey"
-  bio         : "Let's talk ! Reach out."
-  avatar      : "https://placehold.co/400"
+  bio         : "Let's talk! Reach out."
+  avatar      : "/assets/images/author-portrait.jpg"
   links:
     - label: "Email: ahmed.almahey77@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      url: "#"
-
-    - label: "Linkedin"
+      url: "mailto:ahmed.almahey77@gmail.com"
+    - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
       url: "https://www.linkedin.com/in/ahmed-almahey"
-
-    - label: "📞 Call (Phone Only): 01552672575"
+    - label: "Call (Phone Only): 01552672575"
       icon: "fas fa-fw fa-phone"
       url: "tel:01552672575"
-
-    - label: "💬 WhatsApp (Messages Only): 01122424703"
+    - label: "WhatsApp (Messages Only): 01122424703"
       icon: "fab fa-fw fa-whatsapp"
-      url: "https://wa.me/201122424703?text=Hi%20Ahmed%2C%20I%E2%80%99d%20like%20to%20connect!"
+      url: "https://wa.me/201122424703?text=Hi%20Ahmed,%20I'd%20like%20to%20connect"
