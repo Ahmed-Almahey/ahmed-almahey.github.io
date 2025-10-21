@@ -211,3 +211,87 @@ h2 {
   border: 4px solid #007B8F; /* teal halo */
   z-index: -1;
 }
+
+/* Ahmed audio button (unique classes to avoid collisions) */
+.ahm-audio-wrapper {
+  text-align: center;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.ahm-audio-btn {
+  --teal: #007B8F;
+  --orange: #F28C38;
+  --size: 64px;
+  display: inline-grid;
+  place-items: center;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.02));
+  border: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 6px 18px rgba(6,24,40,0.12);
+  outline: none;
+}
+
+/* inner circle with orange border */
+.ahm-audio-btn svg.ahm-icon {
+  fill: var(--orange);
+  stroke: none;
+}
+
+/* teal halo ring behind button */
+.ahm-audio-btn::before{
+  content: "";
+  position: absolute;
+  left: -8px; top: -8px;
+  width: calc(var(--size) + 16px);
+  height: calc(var(--size) + 16px);
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px rgba(0,123,143,0.12), 0 0 28px rgba(0,123,143,0.06);
+  z-index: -1;
+  transition: transform 240ms ease;
+}
+
+/* orange ring around icon (subtle) */
+.ahm-audio-btn::after{
+  content: "";
+  position: absolute;
+  left: 6px; top: 6px;
+  width: calc(var(--size) - 12px);
+  height: calc(var(--size) - 12px);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px rgba(242,140,56,0.95);
+  z-index: 0;
+  opacity: 0.92;
+}
+
+/* hover and focus */
+.ahm-audio-btn:hover, .ahm-audio-btn:focus {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(6,24,40,0.18);
+}
+
+/* playing state: subtle pulse */
+.ahm-audio-btn.ahm-playing::before {
+  transform: scale(1.02);
+  animation: ahm-pulse 1.8s infinite;
+}
+@keyframes ahm-pulse {
+  0% { box-shadow: 0 0 0 6px rgba(0,123,143,0.12); }
+  50% { box-shadow: 0 0 0 14px rgba(0,123,143,0.06); }
+  100% { box-shadow: 0 0 0 6px rgba(0,123,143,0.12); }
+}
+
+/* label style */
+.ahm-audio-label {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #334155;
+  font-weight: 600;
+}
