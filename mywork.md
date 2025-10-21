@@ -19,6 +19,7 @@ Here you’ll find a collection of my work in data analysis, BI development, and
   <a href="#tableau" class="tag-btn">Tableau</a>
   <a href="#excel" class="tag-btn">Excel</a>
   <a href="#sql" class="tag-btn">SQL</a>
+   <a href="#BITOOLS" class="tag-btn">BI TOOLS (SSIS, SSAS, SSRS)</a>
   <a href="#DWH" class="tag-btn">Data Warehouse</a>
   <a href="#mongodb" class="tag-btn">MongoDB</a>
 </div>
@@ -73,6 +74,17 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 <div class="entries-grid entries-grid--mywork">
   {% for post in site.categories.work %}
     {% if post.tags contains "Excel" %}
+      {% include archive-single.html type="grid" %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+---
+
+## 🗄️ BI Tools (SSIS, SSRS, SSAS) Projects {#BITOOLS}
+<div class="entries-grid entries-grid--mywork">
+  {% for post in site.categories.work %}
+    {% if post.tags contains "BI TOOLS" %}
       {% include archive-single.html type="grid" %}
     {% endif %}
   {% endfor %}
