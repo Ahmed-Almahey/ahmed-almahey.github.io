@@ -300,53 +300,40 @@ h2 {
 .page--mywork .entries-grid--mywork,
 .page--mywork .entries-grid {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) !important;
-  gap: 30px !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  gap: 25px !important;
+  align-items: start !important;
 }
 
 /* Force items to be grid items */
 .page--mywork .entries-grid--mywork > *,
 .page--mywork .entries-grid > * {
   display: block !important;
-  width: 85% !important;
+  width: 100% !important; /* Changed from 85% to 100% */
   min-width: 0 !important;
-}
-
-/* Override any theme floats or blocks */
-.page--mywork .archive__item {
-  float: none !important;
-  display: block !important;
-}
-
-/* ===== FIX HEIGHT AND SIZING ===== */
-.page--mywork .entries-grid--mywork,
-.page--mywork .entries-grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
-  gap: 25px !important;
-  align-items: start !important; /* Align items at the top */
 }
 
 /* Make all project cards the same height */
 .page--mywork .archive__item {
-  height: 100% !important; /* Make all cards equal height */
+  height: 100% !important;
   display: flex !important;
   flex-direction: column !important;
+  float: none !important;
 }
 
 /* Make teaser images taller and consistent */
 .page--mywork .archive__item-teaser {
-  height: 200px !important; /* Fixed height for all images */
-  padding-top: 0 !important; /* Remove padding since we use fixed height */
-  flex-shrink: 0 !important; /* Don't let image shrink */
+  height: 200px !important;
+  padding-top: 0 !important;
+  flex-shrink: 0 !important;
 }
 
 /* Make the content area flexible but consistent */
 .page--mywork .archive__item-body {
-  flex: 1 !important; /* Takes remaining space */
+  flex: 1 !important;
   display: flex !important;
   flex-direction: column !important;
-  justify-content: space-between !important; /* Push content to top and bottom */
+  justify-content: space-between !important;
 }
 
 /* Ensure titles and text don't overflow */
@@ -355,5 +342,5 @@ h2 {
 }
 
 .page--mywork .archive__item-excerpt {
-  flex: 1 !important; /* Allow excerpt to grow */
+  flex: 1 !important;
 }
