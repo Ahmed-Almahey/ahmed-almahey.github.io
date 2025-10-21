@@ -56,3 +56,4 @@ The goal was to extract **profitability insights** using calculated fields, KPI 
 ### ✅ Key Takeaway
 
 This project shows how Tableau can translate raw sales data into **profit-focused business insights** using KPI logic, calculated fields, and visual storytelling instead of just descriptive charts.
+
