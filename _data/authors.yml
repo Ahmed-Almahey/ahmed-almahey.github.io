@@ -10,3 +10,11 @@ Ahmed Almahey:
     - label: "Linkedin"
       icon: "fas fa-fw fa-link"
       url: "https://www.linkedin.com/in/ahmed-almahey"
+
+    - label: "📞 Call (Phone Only): 01552672575"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:01552672575"
+
+    - label: "💬 WhatsApp (Messages Only): 01122424703"
+      icon: "fab fa-fw fa-whatsapp"
+      url: "https://wa.me/201122424703?text=Hi%20Ahmed%2C%20I%E2%80%99d%20like%20to%20connect!"
