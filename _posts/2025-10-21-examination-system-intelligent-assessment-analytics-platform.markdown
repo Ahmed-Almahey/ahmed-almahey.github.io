@@ -2,7 +2,7 @@
 layout: posts
 title: "Examination System — Intelligent Assessment & Analytics Platform"
 date: 2025-10-21 01:35:00 +0200
-tags: [ITI Graduation Project]
+tags: ["ITI", "Graduation Project"]
 author_profile: true
 author: Ahmed Almahey
 categories: [work]
