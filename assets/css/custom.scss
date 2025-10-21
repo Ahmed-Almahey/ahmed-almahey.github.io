@@ -104,27 +104,43 @@
 }
 
 /* ===== MY WORK GRID FIX ===== */
-.page--mywork .entries-grid--mywork {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 24px;
-  align-items: start;
-  justify-content: start;
+.page--mywork .entries-grid--mywork,
+.page--mywork .entries-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  gap: 25px !important;
+  align-items: start !important;
 }
 
+/* Force items to be grid items */
+.page--mywork .entries-grid--mywork > *,
+.page--mywork .entries-grid > * {
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+/* Make all project cards the same height */
+.page--mywork .archive__item {
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  float: none !important;
+  justify-content: space-between;
+}
+
+/* Make teaser images taller and consistent */
 .page--mywork .archive__item-teaser {
-  position: relative;
-  width: 100%;
-  padding-top: 65%; /* slightly wider aspect ratio */
-  overflow: hidden;
+  height: 200px !important;
+  padding-top: 0 !important;
+  flex-shrink: 0 !important;
   border-radius: 10px;
+  overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .page--mywork .archive__item-teaser img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -136,11 +152,21 @@
   transform: scale(1.05);
 }
 
-/* Keep cards balanced */
-.page--mywork .archive__item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+/* Make the content area flexible but consistent */
+.page--mywork .archive__item-body {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+/* Ensure titles and text don't overflow */
+.page--mywork .archive__item-title {
+  margin-bottom: 10px !important;
+}
+
+.page--mywork .archive__item-excerpt {
+  flex: 1 !important;
 }
 
 /* Section title style */
@@ -151,36 +177,20 @@ h2 {
   color: #2a2a2a;
 }
 
-/* ==== FIX: Make My Work project cards appear side-by-side ==== */
-.page--mywork .entries-grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)) !important;
-  gap: 24px !important;
-  align-items: start !important;
+/* ===== HOME PAGE POSTS - MAKE THEM TALLER ===== */
+.layout--home .archive__item-teaser {
+  height: 180px !important; /* Increased from original */
+  padding-top: 0 !important;
 }
 
-.page--mywork .archive__item {
+.layout--home .archive__item {
+  height: 100% !important;
   display: flex !important;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: column !important;
 }
 
-.page--mywork .archive__item-teaser {
-  padding-top: 70%;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-}
-
-.page--mywork .archive__item-teaser img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.25s ease;
-}
-
-.page--mywork .archive__item-teaser:hover img {
-  transform: scale(1.05);
+.layout--home .archive__item-body {
+  flex: 1 !important;
 }
 
 .author-panel .avatar {
@@ -294,53 +304,4 @@ h2 {
   font-size: 0.95rem;
   color: #334155;
   font-weight: 600;
-}
-
-/* ===== FIX MY WORK GRID ===== */
-.page--mywork .entries-grid--mywork,
-.page--mywork .entries-grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
-  gap: 25px !important;
-  align-items: start !important;
-}
-
-/* Force items to be grid items */
-.page--mywork .entries-grid--mywork > *,
-.page--mywork .entries-grid > * {
-  display: block !important;
-  width: 100% !important; /* Changed from 85% to 100% */
-  min-width: 0 !important;
-}
-
-/* Make all project cards the same height */
-.page--mywork .archive__item {
-  height: 100% !important;
-  display: flex !important;
-  flex-direction: column !important;
-  float: none !important;
-}
-
-/* Make teaser images taller and consistent */
-.page--mywork .archive__item-teaser {
-  height: 200px !important;
-  padding-top: 0 !important;
-  flex-shrink: 0 !important;
-}
-
-/* Make the content area flexible but consistent */
-.page--mywork .archive__item-body {
-  flex: 1 !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: space-between !important;
-}
-
-/* Ensure titles and text don't overflow */
-.page--mywork .archive__item-title {
-  margin-bottom: 10px !important;
-}
-
-.page--mywork .archive__item-excerpt {
-  flex: 1 !important;
 }
