@@ -46,12 +46,4 @@ Senior SQL Instructor at ITI — one of Egypt’s most respected trainers in SQL
 
 ---
 
-###  Visual Reference
-
-This project uses the following image as teaser and background:
-
-`assets/images/Screenshot 2025-10-21 080404.png`
-
----
-
 *These SQL labs represent the backbone of my understanding of database systems — shaping the way I analyze data relationships, optimize performance, and design maintainable database architectures.*
