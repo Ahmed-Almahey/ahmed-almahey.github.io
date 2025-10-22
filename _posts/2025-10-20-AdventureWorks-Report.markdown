@@ -65,10 +65,10 @@ The report includes industry-grade BI features:
 ###  Project Files
 
 - **GitHub Repository:**  
-  https://github.com/Ahmed-Almahey/PowerBI_Projects/tree/main/adventureworks-report
+  [https://github.com/Ahmed-Almahey/PowerBI_Projects/tree/main/adventureworks-report](https://github.com/Ahmed-Almahey/PowerBI_Projects/tree/main/adventureworks-report)
 
 - **Data Source:**  
-  https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
+  [https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)
 
 ---
 
