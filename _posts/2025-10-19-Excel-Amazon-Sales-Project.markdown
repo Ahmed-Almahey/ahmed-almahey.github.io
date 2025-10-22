@@ -19,6 +19,12 @@ The goal was to design a clean dataset with consistent values, logical rules, an
 
 ---
 
+### 🖼 Dashboard Preview
+
+{% include figure image_path="/assets/images/Screenshot 2025-10-19 125344.png" alt="Excel Amazon Sales Project — Data Cleaning & Revenue Logic" %}
+
+---
+
 ###  Data Cleaning Process
 
 - Removed blank rows and duplicate records across the dataset.  
@@ -55,12 +61,6 @@ Through this project, I strengthened my ability to:
 - Apply **business logic directly in the data layer** before visualization.  
 
 This process makes future analyses more accurate and repeatable — essential for scalable reporting in e-commerce contexts.
-
----
-
-### 🖼 Dashboard Preview
-
-{% include figure image_path="/assets/images/Screenshot 2025-10-19 125344.png" alt="Excel Amazon Sales Project — Data Cleaning & Revenue Logic" %}
 
 ---
 
