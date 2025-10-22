@@ -22,6 +22,17 @@ I wanted to demonstrate how to combine **data storytelling, visualization design
 
 ---
 
+###  Visual Highlights
+
+{% include figure image_path="/assets/images/Screenshot 2025-10-20 223522.png" alt="Superstore Tableau Overview" %}
+{% include figure image_path="/assets/images/Screenshot 2025-10-20 223554.png" alt="Sales and Profit by Customer" %}
+{% include figure image_path="/assets/images/Screenshot 2025-10-20 223615.png" alt="Waterfall Chart by Subcategory" %}
+{% include figure image_path="/assets/images/Screenshot 2025-10-20 223631.png" alt="Category Lollipop Chart" %}
+{% include figure image_path="/assets/images/Screenshot 2025-10-20 223651.png" alt="Donut Chart — Profit by Region" %}
+{% include figure image_path="/assets/images/Screenshot 2025-10-20 223659.png" alt="Interactive Overview Dashboard" %}
+
+---
+
 ###  Project Overview
 
 The project integrates multiple dashboards, advanced chart types, parameters, and a final story presentation — all connected through a clean and interactive user experience.
@@ -57,17 +68,6 @@ Through this project, I strengthened my ability to:
 - Apply **data storytelling techniques** for executive presentations  
 
 This experience helped me refine the way I approach dashboard projects — moving from individual visuals to **complete analytical stories** that connect metrics with meaning.
-
----
-
-###  Visual Highlights
-
-{% include figure image_path="/assets/images/Screenshot 2025-10-20 223522.png" alt="Superstore Tableau Overview" %}
-{% include figure image_path="/assets/images/Screenshot 2025-10-20 223554.png" alt="Sales and Profit by Customer" %}
-{% include figure image_path="/assets/images/Screenshot 2025-10-20 223615.png" alt="Waterfall Chart by Subcategory" %}
-{% include figure image_path="/assets/images/Screenshot 2025-10-20 223631.png" alt="Category Lollipop Chart" %}
-{% include figure image_path="/assets/images/Screenshot 2025-10-20 223651.png" alt="Donut Chart — Profit by Region" %}
-{% include figure image_path="/assets/images/Screenshot 2025-10-20 223659.png" alt="Interactive Overview Dashboard" %}
 
 ---
 

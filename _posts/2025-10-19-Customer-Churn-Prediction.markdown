@@ -27,6 +27,12 @@ This enables companies to launch retention campaigns *before* revenue is lost.
 
 ---
 
+### 🖼 App Preview
+
+{% include figure image_path="/assets/images/Screenshot 2025-10-19 050606.png" alt="Customer Churn Prediction App" %}
+
+---
+
 ###  What I Built
 
 - Preprocessed and encoded categorical features (Gender, Churn)
@@ -44,12 +50,6 @@ This project strengthened my skills in:
 - Thinking from a business perspective, not only technically
 
 ---
-
----
-
-### 🖼 App Preview
-
-{% include figure image_path="/assets/images/Screenshot 2025-10-19 050606.png" alt="Customer Churn Prediction App" %}
 
 ### 🔗 Live Demo & Project Files
 
