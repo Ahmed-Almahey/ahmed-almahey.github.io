@@ -70,7 +70,7 @@ This dashboard enables:
 ### 🔗 Demo & Project Files
 
 - **GitHub Repo:**  
-  https://github.com/Ahmed-Almahey/Excel-Projects/tree/main/International%20Sales%20Report
+  [https://github.com/Ahmed-Almahey/Excel-Projects/tree/main/International%20Sales%20Report](https://github.com/Ahmed-Almahey/Excel-Projects/tree/main/International%20Sales%20Report)
 
 - **LinkedIn Demo (Video):**  
-  https://www.linkedin.com/posts/ahmed-almahey_exceldashboard-powerquery-dataanalysis-activity-7381338687839756289-W3Wd?utm_source=share&utm_medium=member_desktop&rcm=ACoAACc9-lYBwv4AGqqF7Pyk4h-OiyXQ8haYNow
+  [Project Demo](https://www.linkedin.com/posts/ahmed-almahey_exceldashboard-powerquery-dataanalysis-activity-7381338687839756289-W3Wd?utm_source=share&utm_medium=member_desktop&rcm=ACoAACc9-lYBwv4AGqqF7Pyk4h-OiyXQ8haYNow)
