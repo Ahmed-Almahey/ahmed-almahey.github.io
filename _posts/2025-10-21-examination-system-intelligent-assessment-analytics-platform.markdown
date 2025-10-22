@@ -20,6 +20,15 @@ That question shaped the vision behind the **Examination System**, an end-to-end
 
 ---
 
+### Objective
+
+The goal was to create a **comprehensive digital examination ecosystem** — from database design and automation to interactive analytics — that supports:
+- Automated **exam creation, correction, and grading**
+- Centralized **student and instructor management**
+- **Data-driven dashboards** for institutional decision-making
+
+---
+
 ### 📸 Project Preview
 
 Here’s a glimpse of the **Examination System** in action — from database design to Power BI dashboards and the desktop interface.
@@ -29,15 +38,6 @@ Here’s a glimpse of the **Examination System** in action — from database des
 ![Power BI Dashboard](/assets/images/Screenshot 2025-10-21 070321.png)
 ![Desktop Application Home](/assets/images/Screenshot 2025-10-21 070345.png)
 ![Dashboard Insights](/assets/images/Screenshot 2025-10-21 070411.png)
-
----
-
-### Objective
-
-The goal was to create a **comprehensive digital examination ecosystem** — from database design and automation to interactive analytics — that supports:
-- Automated **exam creation, correction, and grading**
-- Centralized **student and instructor management**
-- **Data-driven dashboards** for institutional decision-making
 
 ---
 
