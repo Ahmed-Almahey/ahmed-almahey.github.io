@@ -20,6 +20,18 @@ That question shaped the vision behind the **Examination System**, an end-to-end
 
 ---
 
+### 📸 Project Preview
+
+Here’s a glimpse of the **Examination System** in action — from database design to Power BI dashboards and the desktop interface.
+
+![ERD Preview](/assets/images/Screenshot 2025-10-21 070249.png)
+![Schema Diagram](/assets/images/Screenshot 2025-10-21 070313.png)
+![Power BI Dashboard](/assets/images/Screenshot 2025-10-21 070321.png)
+![Desktop Application Home](/assets/images/Screenshot 2025-10-21 070345.png)
+![Dashboard Insights](/assets/images/Screenshot 2025-10-21 070411.png)
+
+---
+
 ### Objective
 
 The goal was to create a **comprehensive digital examination ecosystem** — from database design and automation to interactive analytics — that supports:
@@ -34,7 +46,7 @@ The goal was to create a **comprehensive digital examination ecosystem** — fro
 The system was built on a **SQL Server backend** with:
 - A complete **ERD and database backup**
 - Stored procedures handling all CRUD operations, exam generation, answers, and correction logic  
-- Reports dynamically generated using **SSRS**, **Crystal Reports**, and **Report Builder**
+- Reports dynamically generated using **SSRS**
 
 A **desktop interface** provided the operational control for managing students, instructors, courses, and exams, while a suite of **Power BI dashboards** delivered real-time insights into system performance.
 
@@ -59,24 +71,12 @@ These dashboards turned thousands of raw records into **actionable intelligence*
 
 One of the major challenges was **integrating multiple functional layers** — database logic, desktop interfaces, and analytical reporting — into a seamless workflow.  
 To solve this:
-- I implemented **modular stored procedures** to isolate logic for each report and function.
+- We implemented **modular stored procedures** to isolate logic for each report and function.
 - Established **parameterized queries** for flexible report generation.
 - Designed a **normalized schema** to support both operational and analytical queries efficiently.
 - Built **optimized Power BI data models** to handle real-time refresh and performance tuning.
 
 This approach ensured consistency across the system — from raw data entry to final visualizations.
-
----
-
-### 📸 Project Preview
-
-Here’s a glimpse of the **Examination System** in action — from database design to Power BI dashboards and the desktop interface.
-
-![ERD Preview](/assets/images/Screenshot 2025-10-21 070249.png)
-![Schema Diagram](/assets/images/Screenshot 2025-10-21 070313.png)
-![Power BI Dashboard](/assets/images/Screenshot 2025-10-21 070321.png)
-![Desktop Application Home](/assets/images/Screenshot 2025-10-21 070345.png)
-![Dashboard Insights](/assets/images/Screenshot 2025-10-21 070411.png)
 
 ---
 
