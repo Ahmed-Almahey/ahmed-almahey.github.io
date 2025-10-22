@@ -29,6 +29,13 @@ The goal was to create a dynamic and visually engaging BI dashboard that helps s
 
 ---
 
+### 🖼 Dashboard Preview
+
+{% include figure image_path="/assets/images/Screenshot 2025-10-20 055557.png" alt="Power BI Dashboard — Overview" %}
+{% include figure image_path="/assets/images/Screenshot 2025-10-20 055716.png" alt="Power BI Dashboard — Detailed Insights" %}
+
+---
+
 ###  DAX Measures Created
 
 - `# Orders`
@@ -57,13 +64,6 @@ The dashboard includes a range of interactive visuals and KPIs:
 - Tooltip pages for context-aware insights  
 - Drill-down capability for hierarchical analysis  
 - Clean layout with consistent colors and meaningful chart titles
-
----
-
-### 🖼 Dashboard Preview
-
-{% include figure image_path="/assets/images/Screenshot 2025-10-20 055557.png" alt="Power BI Dashboard — Overview" %}
-{% include figure image_path="/assets/images/Screenshot 2025-10-20 055716.png" alt="Power BI Dashboard — Detailed Insights" %}
 
 ---
 

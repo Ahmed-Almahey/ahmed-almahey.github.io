@@ -33,45 +33,6 @@ It aims to answer questions like:
 
 ---
 
-###  Data Source & Preparation
-
-- **Data Source:** [AdventureWorks Sample Database (Microsoft Docs)](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)  
-- **Connectivity Mode:** Import (to make file sharing easier — no need for SQL connection setup)  
-- Original connectivity was **DirectQuery**, but switched to Import for portability.  
-- Extracted and cleaned multiple tables:  
-  - `Sales.SalesOrderHeader`, `Sales.SalesOrderDetail`, `Sales.vSalesPerson`,  
-    `Sales.SalesTerritory`, `Purchasing.ShipMethod`,  
-    `Production.Product`, `Production.ProductSubcategory`, `Production.ProductCategory`  
-
-**Data Preparation Steps:**
-- Renamed tables and columns for consistency  
-- Removed unused columns for model efficiency  
-- Merged product-related tables (`Product`, `Subcategory`, `Category`) using Power Query (M language)  
-- Added calculated **Status** field using logic from `ufnGetSalesOrderStatusText()`  
-- Created **Dates** table in Power Query  
-- Fixed TotalDue, Tax, and Freight values via DAX and Power Query transformations  
-
----
-
-###  Data Modeling
-
-The model follows a **Star Schema**, optimized for clear relationships and flexible analysis.  
-
-**Features:**
-- Defined **Product Hierarchy** → Category → Subcategory → Product  
-- Built **role-playing date dimensions** (OrderDate, ShipDate, DueDate) using `USERELATIONSHIP()`  
-- Created a dedicated **DAX Measures Table** containing all KPIs  
-
-**Key Measures:**
-- `# Orders`  
-- `Total SubTotal`  
-- `Total Tax`  
-- `Total Freight`  
-- `Total Due`  
-- `# Quantity`  
-
----
-
 ###  Visuals & Insights
 
 The dashboard includes a full analytical flow across multiple views:
@@ -91,6 +52,44 @@ The dashboard includes a full analytical flow across multiple views:
 {% include figure image_path="/assets/images/Screenshot 2025-10-20 120652.png" alt="AdventureWorks Data Modeling" %}
 {% include figure image_path="/assets/images/Screenshot 2025-10-20 190442.png" alt="Power BI Sales Visualizations" %}
 {% include figure image_path="/assets/images/Screenshot 2025-10-20 190501.png" alt="Power BI Product Insights" %}
+
+---
+
+###  Data Source & Preparation
+
+- **Data Source:** [AdventureWorks Sample Database (Microsoft Docs)](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)  
+- **Connectivity Mode:** Import (to make file sharing easier — no need for SQL connection setup)  
+- Original connectivity was **DirectQuery**, but switched to Import for portability.  
+- Extracted and cleaned multiple tables:  
+  - `Sales.SalesOrderHeader`, `Sales.SalesOrderDetail`, `Sales.vSalesPerson`,  
+    `Sales.SalesTerritory`, `Purchasing.ShipMethod`,  
+    `Production.Product`, `Production.ProductSubcategory`, `Production.ProductCategory`  
+
+**Data Preparation Steps:**
+- Renamed tables and columns for consistency  
+- Removed unused columns for model efficiency  
+- Merged product-related tables (`Product`, `Subcategory`, `Category`) using Power Query (M language)  
+- Added calculated **Status** field using logic from `ufnGetSalesOrderStatusText()`  
+- Created **Dates** table in Power Query  
+- Fixed TotalDue, Tax, and Freight values via DAX 
+---
+
+###  Data Modeling
+
+The model follows a **Star Schema**, optimized for clear relationships and flexible analysis.  
+
+**Features:**
+- Defined **Product Hierarchy** → Category → Subcategory → Product  
+- Built **role-playing date dimensions** (OrderDate, ShipDate, DueDate) using `USERELATIONSHIP()`  
+- Created a dedicated **DAX Measures Table** containing all KPIs  
+
+**Key Measures:**
+- `# Orders`  
+- `Total SubTotal`  
+- `Total Tax`  
+- `Total Freight`  
+- `Total Due`  
+- `# Quantity`  
 
 ---
 

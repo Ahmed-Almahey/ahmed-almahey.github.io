@@ -86,7 +86,6 @@ I designed a **mobile layout** for quick access on smaller screens — ideal for
 ###  Design & Layout
 
 - Used **consistent, professional color palettes** suitable for a business dashboard  
-- Added **interactive tooltips** and icons for clarity  
 - Focused on minimal text and strong visual storytelling  
 
 ---
