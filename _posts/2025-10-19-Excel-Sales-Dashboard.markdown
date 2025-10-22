@@ -20,6 +20,12 @@ I built this Excel dashboard using Power Query, Data Modeling, and PivotTables t
 
 ---
 
+### 🖼 Dashboard Preview
+
+{% include figure image_path="/assets/images/Screenshot 2025-10-19 073647.png" alt="Excel Sales Dashboard — Last Month Analysis" %}
+
+---
+
 ### Data Preparation & Modeling
 
 - Loaded **masterdata.xlsx** as a workbook and created connections for Employees, Products, Customers  
@@ -44,12 +50,6 @@ The dashboard includes:
 This simulates a realistic business reporting scenario using Excel as a lightweight BI solution.
 
 ---
-
-
-### 🖼 Dashboard Preview
-
-{% include figure image_path="/assets/images/Screenshot 2025-10-19 073647.png" alt="Excel Sales Dashboard — Last Month Analysis" %}
-
 
 ### 🔗 Demo & Project Files
 
