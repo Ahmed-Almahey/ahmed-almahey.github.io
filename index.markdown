@@ -8,26 +8,39 @@ author_profile: true
 ---
 ![Ahmed Almahey](/assets/images/IMG_20250911_153717.jpg){: style="float: none; display: block; margin: 0 auto; width: 440px;"}
 
-<!-- Ahmed audio play button (paste this directly AFTER your image line) -->
-<div class="ahm-audio-wrapper" aria-hidden="false">
-  <button class="ahm-audio-btn" id="ahmPlayBtn" aria-label="Play Ahmed's introduction">
-    <!-- PLAY TRIANGLE -->
-    <svg class="ahm-icon ahm-play" viewBox="0 0 64 64" width="44" height="44" aria-hidden="true" focusable="false">
-      <circle cx="32" cy="32" r="30" fill="none"/>
-      <polygon points="26,20 47,32 26,44" />
-    </svg>
-    <!-- PAUSE BARS (hidden by default) -->
-    <svg class="ahm-icon ahm-pause" viewBox="0 0 64 64" width="44" height="44" aria-hidden="true" focusable="false" style="display:none;">
-      <rect x="20" y="18" width="6" height="28" rx="1"/>
-      <rect x="38" y="18" width="6" height="28" rx="1"/>
-    </svg>
-  </button>
-  <span class="ahm-audio-label">▶ Listen — short intro</span>
+<!-- AUDIO + RESUME SIDE BY SIDE -->
+<div style="display:flex; justify-content:center; align-items:center; gap:18px; margin-top:16px;">
 
-  <audio id="ahmIntroAudio" preload="none">
-    <source src="/assets/audio/intro-ahmed-almahey.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
+  <!-- (1) AUDIO BLOCK — UNCHANGED -->
+  <div class="ahm-audio-wrapper" aria-hidden="false">
+    <button class="ahm-audio-btn" id="ahmPlayBtn" aria-label="Play Ahmed's introduction">
+      <!-- PLAY TRIANGLE -->
+      <svg class="ahm-icon ahm-play" viewBox="0 0 64 64" width="44" height="44" aria-hidden="true" focusable="false">
+        <circle cx="32" cy="32" r="30" fill="none"/>
+        <polygon points="26,20 47,32 26,44" />
+      </svg>
+      <!-- PAUSE BARS (hidden by default) -->
+      <svg class="ahm-icon ahm-pause" viewBox="0 0 64 64" width="44" height="44" aria-hidden="true" focusable="false" style="display:none;">
+        <rect x="20" y="18" width="6" height="28" rx="1"/>
+        <rect x="38" y="18" width="6" height="28" rx="1"/>
+      </svg>
+    </button>
+    <span class="ahm-audio-label">▶ Listen — short intro</span>
+
+    <audio id="ahmIntroAudio" preload="none">
+      <source src="/assets/audio/intro-ahmed-almahey.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <!-- (2) RESUME BUTTON -->
+  <a href="/assets/docs/Ahmed_Almahey_BI_Developer_Resume.pdf"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="btn btn--primary">
+     📄 View & Download Resume
+  </a>
+
 </div>
 
 <script>
@@ -70,7 +83,6 @@ author_profile: true
   audio.addEventListener('pause', function(){ setPlaying(false); });
 })();
 </script>
-
 
 
 # Hi there! I'm Ahmed Almahey
