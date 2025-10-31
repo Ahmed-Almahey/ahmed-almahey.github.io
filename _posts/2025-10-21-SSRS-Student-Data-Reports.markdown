@@ -2,7 +2,7 @@
 layout: posts
 title: "SSRS — Student Data & BI Reports"
 date: 2025-10-21 14:00:00 +0200
-tags: [BI TOOLS (SSIS, SSAS, SSRS)]
+tags: ["BI TOOLS", "SSIS", "SSAS", "SSRS"]
 author_profile: true
 author: Ahmed Almahey
 categories: [work]
