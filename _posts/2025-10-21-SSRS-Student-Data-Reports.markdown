@@ -6,7 +6,7 @@ tags: ["BI TOOLS", "SSIS", "SSAS", "SSRS"]
 author_profile: true
 author: Ahmed Almahey
 categories: [work]
-highlight_home: true
+highlight_home: False
 header:
   overlay_image: "/assets/images/Students_data.png"
   teaser: "/assets/images/Students_data.png"
