@@ -1,11 +1,16 @@
 ---
-layout: post
-title: "SQL Server Analysis Services (SSAS)"
-date: 2025-10-30
-categories: [projects]
+layout: posts
+title: "SSAS — Analytical Cubes & Business Insights"
+date: 2025-10-30 10:00:00 +0200
 tags: ["BI TOOLS", "SSIS", "SSAS", "SSRS"]
-image: /assets/images/Sales_Cube.png
-description: "Creating analytical cubes for multidimensional insights using SQL Server Analysis Services (SSAS)"
+author_profile: true
+author: Ahmed Almahey
+categories: [work]
+highlight_home: false
+header:
+  overlay_image: "/assets/images/Sales_Cube.png"
+  teaser: "/assets/images/Sales_Cube.png"
+description: "Building multidimensional cubes for actionable analytics using SQL Server Analysis Services (SSAS)."
 ---
 
 ###  Project Overview
