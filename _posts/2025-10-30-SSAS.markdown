@@ -1,0 +1,71 @@
+---
+layout: post
+title: "SQL Server Analysis Services (SSAS)"
+date: 2025-10-30
+categories: [projects]
+tags: ["BI TOOLS", "SSIS", "SSAS", "SSRS"]
+image: /assets/images/Sales_Cube.png
+description: "Creating analytical cubes for multidimensional insights using SQL Server Analysis Services (SSAS)"
+---
+
+###  Project Overview
+
+This project focuses on building **analytical data cubes** using **SQL Server Analysis Services (SSAS)**.  
+The aim was to design a structure that helps businesses **analyze and visualize sales performance** from multiple perspectives — by product, customer, channel, and time.
+
+Through this project, I explored how data modeling and multidimensional analysis can turn raw data into meaningful insights for decision-makers.  
+By defining dimensions, measures, KPIs, and calculated fields, I was able to make the data tell a story — not just show numbers.
+
+---
+
+###  Business Value
+
+In real-world business environments, raw sales data is often scattered across transactional databases.  
+SSAS allows transforming this data into **OLAP cubes** — structured models that make it easy for managers and analysts to explore performance trends, track KPIs, and compare results across time periods, products, and markets.
+
+For example, in this project:
+- The **Product Cube** helps analyze product quantity trends across different years.  
+- The **Prod_Cust Cube** links customer behavior with product sales, providing deep insights into buying patterns.  
+- The **Sales Cube** aggregates all dimensions, giving a complete view of sales performance and channel effectiveness.
+
+---
+
+###  Technical Highlights
+
+- Built cubes using **Product**, **Customer**, **Time**, and **Sales Fact** dimensions.  
+- Designed **measures** like Quantity and Total Price, and created a **calculated measure** for Sales Unit Price.  
+- Developed a **KPI indicator** to track sales quantity performance with dynamic “faces” as status indicators.  
+- Implemented **Arabic translation** for cube dimensions and measures.  
+- Created **pivot tables and charts** in Excel 2007 for visual analysis.  
+- Built a **perspective view** (“Channel Product Perspective”) for simplified business reporting.
+
+---
+
+###  Challenges & Learnings
+
+Building these cubes required a deep understanding of how data relates across multiple dimensions.  
+Designing calculated measures and KPIs while ensuring data accuracy was one of the main challenges — especially when integrating them with Excel reports.
+
+From this experience, I learned how to:
+- Optimize cube structures for performance and readability.  
+- Design business-friendly KPIs and calculated measures.  
+- Deliver powerful visual insights that non-technical users can easily interpret.  
+
+This project strengthened my overall BI workflow understanding and complemented my work with **SSRS** and **SSIS**, building a complete business intelligence pipeline.
+
+---
+
+###  Project Preview
+
+Below are previews of some cubes and reports built in this project:
+
+![Sales Cube](/assets/images/Sales_Cube.png)  
+![Product Cube](/assets/images/Product_Cube.png)  
+![Excel Pivot Example](/assets/images/Screenshot%202025-10-31%20141133.png)
+
+---
+
+### 🔗 Repository
+
+You can view the full project and implementation files here:  
+[GitHub Repository – SSAS](https://github.com/Ahmed-Almahey/SQL-Server-BI-Tools/tree/main/SSAS)
