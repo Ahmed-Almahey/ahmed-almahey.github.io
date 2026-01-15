@@ -34,7 +34,7 @@ author_profile: true
   </div>
 
   <!-- (2) RESUME BUTTON -->
-  <a href="/assets/docs/Ahmed_Almahey_BI_Developer_Resume.pdf"
+  <a href="/assets/docs/Ahmed_Almahey_BI_Resume.pdf"
      target="_blank"
      rel="noopener noreferrer"
      class="btn btn--primary">
