@@ -13,7 +13,7 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 ---
 
 <div class="tags-navigation">
- <a href="#iti" class="tag-btn">End-to-End BI Projects</a>
+ <a href="#BI" class="tag-btn">End-to-End BI Projects</a>
   <a href="#powerbi" class="tag-btn">Power BI</a>
   <a href="#python" class="tag-btn">Python</a>
   <a href="#tableau" class="tag-btn">Tableau</a>
@@ -26,10 +26,10 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 
 ---
 
-## 🎓 ITI Graduation Project {#iti}
+## End-to-End BI Projects {#BI}
 <div class="entries-grid entries-grid--mywork">
   {% for post in site.categories.work %}
-    {% if post.tags contains "ITI" %}
+    {% if post.tags contains "End-to-End" %}
       {% include archive-single.html type="grid" %}
     {% endif %}
   {% endfor %}
