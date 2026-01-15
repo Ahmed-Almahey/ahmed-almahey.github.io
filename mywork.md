@@ -13,7 +13,7 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 ---
 
 <div class="tags-navigation">
- <a href="#iti" class="tag-btn">ITI Graduation Project</a>
+ <a href="#iti" class="tag-btn">End-to-End BI Projects</a>
   <a href="#powerbi" class="tag-btn">Power BI</a>
   <a href="#python" class="tag-btn">Python</a>
   <a href="#tableau" class="tag-btn">Tableau</a>

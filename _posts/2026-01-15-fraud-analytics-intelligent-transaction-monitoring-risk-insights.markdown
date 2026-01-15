@@ -2,7 +2,7 @@
 layout: posts
 title: "Fraud Analytics — Intelligent Transaction Monitoring & Risk Insights"
 date: 2026-01-15 12:02:00 +0200
-tags: ["ITI", "Fraud Detection Project"]
+tags: [End-to-End BI Projects]
 author_profile: true
 author: Ahmed Almahey
 categories: [work]
