@@ -9,7 +9,7 @@ categories: [work]
 highlight_home: true
 header:
   overlay_image: "/assets/images/Home.png"
-  teaser: "/assets/images/Screenshot 2026-01-15 120221.png"
+  teaser: "/assets/images/Home.png"
 description: "End-to-end fraud detection system combining SQL Server, advanced EDA, and Power BI dashboards for actionable insights and operational monitoring."
 ---
 

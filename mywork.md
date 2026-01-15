@@ -28,11 +28,11 @@ Here you’ll find a collection of my work in data analysis, BI development, and
 
 ## End-to-End BI Projects {#BI}
 <div class="entries-grid entries-grid--mywork">
-  {% for post in site.categories.work %}
-    {% if post.tags contains "End-to-End" %}
-      {% include archive-single.html type="grid" %}
-    {% endif %}
-  {% endfor %}
+{% for post in site.categories.work %}
+  {% if post.tags contains "End-to-End" %}
+    {% include archive-single.html type="grid" %}
+  {% endif %}
+{% endfor %}
 </div>
 
 ---
